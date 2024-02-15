@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #4f545f;
+}
+
+h1 {
+    background-color: #55b3c5;
+    color: white;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px dotted #ddd; /* Otras propiedades solid, dotted */
+    margin: 20px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.formElement {
+    width: 300px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+#information {
+    border: 1px solid #6278b0;
+    display: block; /* flex, inline */
+    padding: 20px 40px;
+    background-color: #cce9f8;
+    text-align: center; /* start, end, left, right*/
+    margin-bottom: 15px;
+}
+
+.submissionButtons {
+    padding: 10px 20px;
+    background-color: #63d0e5;
+    color: white;
+    border-color: #63d0e5;
+    border-radius: 5px;
+}
+
+.submissionButtons:hover {
+    background-color: #4fbcd1;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: red;
+}
