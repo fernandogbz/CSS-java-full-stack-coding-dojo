@@ -25,3 +25,8 @@ main {
     width: 500px;
     vertical-align: top;
 }
+
+aside {
+    display: inline-block;
+    width: 300px;
+}
