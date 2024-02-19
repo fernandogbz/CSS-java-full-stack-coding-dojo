@@ -8,12 +8,20 @@ div{
     flex-direction: row;
     justify-content: flex-end;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
+
 .item-navegacion {
-    flex: 1;
+    width: 30%;
 }
+/* 
 
 .especial {
     flex: 4;
+} */
+
+.contenido-principal {
+    display: flex;
+    flex-direction: row;
 }
