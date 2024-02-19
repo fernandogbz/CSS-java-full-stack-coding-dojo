@@ -9,3 +9,11 @@ div{
     justify-content: flex-end;
     gap: 15px;
 }
+
+.item-navegacion {
+    flex: 1;
+}
+
+.especial {
+    flex: 4;
+}
