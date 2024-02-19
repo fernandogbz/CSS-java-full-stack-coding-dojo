@@ -8,3 +8,9 @@ body {
     width: 970px;
     margin: 0 auto;
 }
+
+header {
+    border-radius: 20px;
+    background-color: #CF3036;
+    padding: 20px;
+}
