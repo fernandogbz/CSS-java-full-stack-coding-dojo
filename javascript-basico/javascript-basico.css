@@ -22,11 +22,26 @@ h1 {
 
 main {
     display: inline-block;
-    width: 500px;
+    width: 60%;
     vertical-align: top;
+    border-radius: 20px;
+    background-color: #0E1822;
 }
 
 aside {
     display: inline-block;
-    width: 300px;
+    width: 25%;
+    color: white;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-right: 50px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
 }
