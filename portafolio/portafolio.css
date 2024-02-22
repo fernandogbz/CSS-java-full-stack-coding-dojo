@@ -3,7 +3,7 @@
 }
 
 header {
-  background-color: yellow;
+  background-image: linear-gradient(#f3f3f3, #fff);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,10 +54,15 @@ main {
   height: auto;
 }
 
+.continue-reading {
+  padding: 0 20px;
+}
+
 h3 {
-  margin-top: 0;
+  margin: 0px;
   padding: 20px;
-  background-color: #898794;
+  background-image: linear-gradient(to bottom, #b1b1b5, #878593, #b1b1b5);
+  color: white;
 }
 
 p {
@@ -72,12 +77,11 @@ p {
   display: flex;
   flex-direction: row;
   overflow: scroll;
-  padding: 10px 20px;
   width: 100%;
   height: 40em;
-  padding: 0px;
+  padding: 0px /*15px*/;
   gap: 20px;
-  justify-content: center;
+  justify-content: center /*space-around*/;
   align-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
