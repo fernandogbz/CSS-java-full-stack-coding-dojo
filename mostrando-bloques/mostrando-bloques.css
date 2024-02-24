@@ -47,3 +47,7 @@ main {
   padding: 2%;
   border: 2px black solid;
 } */
+
+.row > img:nth-child(even) {
+  background-color: #f36870;
+}
