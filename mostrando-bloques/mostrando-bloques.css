@@ -18,3 +18,9 @@ main {
   flex-flow: column;
   justify-content: space-around;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
