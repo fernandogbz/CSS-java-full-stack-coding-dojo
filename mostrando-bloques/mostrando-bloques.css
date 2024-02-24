@@ -24,3 +24,8 @@ main {
   justify-content: space-around;
   align-items: baseline;
 }
+
+.header img {
+  height: 70px;
+  width: auto;
+}
