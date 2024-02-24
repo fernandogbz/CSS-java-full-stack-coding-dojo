@@ -29,3 +29,7 @@ main {
   height: 70px;
   width: auto;
 }
+
+.header h1 {
+  margin: 10px;
+}
