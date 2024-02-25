@@ -58,3 +58,11 @@ main {
 .row > img:nth-child(odd) {
   background-color: #82b4ee;
 }
+
+footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  height: fit-content;
+  background-image: linear-gradient(#fff, #e9e9e9);
+}
