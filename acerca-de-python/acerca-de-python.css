@@ -184,7 +184,8 @@ aside ul li::before {
 /* more-content */
 
 .more-content {
-  display: block;
+  display: flex;
+  justify-content: space-evenly;
   margin: auto;
   width: 100%;
   padding-top: 10px;
@@ -195,44 +196,38 @@ aside ul li::before {
 }
 
 .more-content h2 {
-  font-size: 17px;
+  font-size: 18px;
   padding: 5px;
 }
 
 .more-content .getting-started {
-  display: inline-block;
   width: 300px;
   height: auto;
   vertical-align: top;
-  margin-right: 10px;
   border-top: #73a7d5 solid 7px;
 }
 
 .more-content .applications {
-  display: inline-block;
   height: auto;
   width: 300px;
   vertical-align: top;
   border-top: #73a7d5 solid 7px;
-  padding: 0px 25px;
 }
 
 .more-content ul {
-  padding: 10px 15px;
+  padding: 10px 30px;
 }
 
 .more-content ul li {
   width: 100%;
-  padding: 0px 10px;
   color: #83b1d9;
-  list-style: square;
 }
 
 .more-content ul li::marker {
   color: black;
 }
 
-span {
+.applications p span {
   color: #83b1d9;
 }
 
@@ -242,14 +237,13 @@ span {
   height: 12.5%;
 }
 
-.anchors {
-  margin: 0px auto 0px auto;
+.footer-container {
+  margin: 0px auto;
   padding-top: 40px;
   width: fit-content;
-  font-size: 0px;
 }
 
-.anchors a {
+.footer-container a {
   display: inline-block;
   color: #86b9e5;
   text-decoration: none;
