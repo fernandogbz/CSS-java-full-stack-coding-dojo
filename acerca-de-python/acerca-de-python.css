@@ -259,3 +259,18 @@ aside ul li::before {
   margin-top: 20px;
   color: #83b1d9;
 }
+
+footer {
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  height: fit-content;
+  background-image: linear-gradient(#fff, #e9e9e9);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-div {
+  width: 60%;
+}
