@@ -22,6 +22,8 @@ main {
   padding-bottom: 10px;
 }
 
+/* header */
+
 .header {
   height: 20%;
   padding-top: 10px;
@@ -60,6 +62,8 @@ main {
 .text-size a {
   color: #ffd42e;
 }
+
+/* search-bar */
 
 .search-bar {
   background-color: #444444;
@@ -100,6 +104,8 @@ main {
   border-bottom-color: #696969;
 }
 
+/* navbar*/
+
 nav {
   display: block;
   width: 100%;
@@ -124,6 +130,8 @@ nav a {
 nav a:hover {
   background-color: #2e6b9e;
 }
+
+/* main-content */
 
 .main-content {
   display: block;
@@ -230,6 +238,8 @@ aside ul li::before {
 .applications p span {
   color: #83b1d9;
 }
+
+/* footer */
 
 .footer {
   background-image: linear-gradient(to bottom, #245076, #3274ab);
