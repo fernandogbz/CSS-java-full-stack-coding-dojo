@@ -183,11 +183,7 @@ aside ul li::before {
   font-weight: normal;
 }
 
-/*--------------------------*/
-
-.more-content {
-  height: 400px;
-}
+/* more-content */
 
 .more-content-wrapper {
   display: block;
