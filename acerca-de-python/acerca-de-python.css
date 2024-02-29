@@ -18,7 +18,6 @@ main {
   background-color: #245076;
   height: 60%;
   color: white;
-  display: block;
   border-bottom: 4px #183753 solid;
   padding-bottom: 10px;
 }
@@ -46,7 +45,7 @@ main {
   margin-right: 10px;
 }
 
-.text-selector {
+.text-size {
   text-align: right;
   margin-right: 40px;
   font-size: 13px;
@@ -54,20 +53,19 @@ main {
   padding-top: 10px;
 }
 
-.text-selector span {
+.text-size span {
   color: black;
 }
 
-.text-selector a {
+.text-size a {
   color: #ffd42e;
 }
 
 .search-bar {
   background-color: #444444;
-  width: 280px;
+  width: 275px;
   border-radius: 10px;
   padding: 12px;
-  vertical-align: top;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.9);
 }
 
@@ -75,8 +73,7 @@ main {
   width: 155px;
   height: 30px;
   margin-left: 42px;
-  border: 2px;
-  border-style: solid;
+  border: 2px solid;
   border-top-color: #696969;
   border-left-color: #696969;
   border-right-color: #c0c0c0;
@@ -85,37 +82,28 @@ main {
 
 .search-bar input::placeholder {
   text-align: center;
-  color: #b9b9b9;
+  color: #bfbfbf;
 }
 
 .search-bar a {
   background-color: #245076;
   color: white;
   text-decoration: none;
-  padding: 7px 10px 10px 10px;
+  padding: 10px;
   font-size: 10px;
   border-radius: 5px;
   margin-left: 5px;
-  border: 2px;
-  border-style: solid;
+  border: 2px solid;
   border-top-color: #c0c0c0;
   border-left-color: #c0c0c0;
   border-right-color: #696969;
   border-bottom-color: #696969;
 }
 
-.nav {
+nav {
   display: block;
   width: 100%;
-  margin-top: 20px;
-}
-
-.nav ul {
-  text-decoration: none;
-  margin: auto;
-  list-style: none;
-  margin-block: 0px;
-  font-size: 0;
+  margin: 10px auto;
   width: fit-content;
   background-image: linear-gradient(to bottom, #3476ad, #497fad, #3476ad);
   border-radius: 5px;
@@ -123,7 +111,9 @@ main {
   padding: 0px 15px;
 }
 
-.nav ul li {
+nav a {
+  text-decoration: none;
+  color: white;
   display: inline-block;
   padding: 10px 30px;
   margin: 0px;
@@ -131,56 +121,56 @@ main {
   width: auto;
 }
 
-.header-content {
-  width: 100%;
+nav a:hover {
+  background-color: #2e6b9e;
 }
 
-.header-content-wrapper {
+.main-content {
   display: block;
   width: fit-content;
   margin: auto;
 }
 
-.header-content-wrapper .index {
+aside {
   display: inline-block;
   text-align: center;
   vertical-align: top;
   padding: 20px;
 }
 
-.header-content-wrapper .index ul {
+aside ul {
   list-style: none;
 }
 
-.header-content-wrapper .index ul li {
+aside ul li {
   text-align: center;
   padding: 5px;
 }
 
-.header-content-wrapper .index ul li a {
+aside ul li a {
   color: white;
 }
 
-.header-content-wrapper .index ul li::before {
+aside ul li::before {
   display: inline-block;
   text-align: center;
   content: ">>";
   color: #ffd42e;
 }
 
-.header-content-wrapper .zen {
+.main-content .zen {
   width: 680px;
   padding: 5px 0px;
   display: inline-block;
   text-align: center;
 }
 
-.header-content .zen p {
+.main-content .zen p {
   padding: 10px;
   font-size: 15px;
 }
 
-.header-content-wrapper .zen ul li {
+.main-content .zen ul li {
   color: #ffd42e;
   font-style: italic;
   list-style: none;
@@ -188,35 +178,37 @@ main {
   padding: 4px;
 }
 
-.header-content-wrapper .zen h3 {
+.main-content .zen h3 {
   margin-top: 5px;
   font-weight: normal;
 }
 
-.main-content {
+/*--------------------------*/
+
+.more-content {
   height: 400px;
 }
 
-.main-content-wrapper {
+.more-content-wrapper {
   display: block;
   margin: auto;
   width: fit-content;
   padding-top: 10px;
 }
 
-.main-content {
+.more-content {
   font-size: 14px;
   text-align: center;
   background-color: white;
   height: 237px;
 }
 
-.main-content h2 {
+.more-content h2 {
   font-size: 17px;
   padding: 5px;
 }
 
-.main-content .getting-started {
+.more-content .getting-started {
   display: inline-block;
   width: 420px;
   height: auto;
@@ -226,7 +218,7 @@ main {
   padding: 0px 25px;
 }
 
-.main-content .applications {
+.more-content .applications {
   display: inline-block;
   height: auto;
   width: 420px;
@@ -235,11 +227,11 @@ main {
   padding: 0px 25px;
 }
 
-.main-content ul {
+.more-content ul {
   padding: 10px 15px;
 }
 
-.main-content ul li {
+.more-content ul li {
   width: 250px;
   margin-left: 30px;
   padding: 0px 50px;
@@ -247,7 +239,7 @@ main {
   list-style: square;
 }
 
-.main-content ul li::marker {
+.more-content ul li::marker {
   color: black;
 }
 
