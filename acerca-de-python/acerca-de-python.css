@@ -152,25 +152,23 @@ aside ul li a {
 }
 
 aside ul li::before {
-  display: inline-block;
-  text-align: center;
   content: ">>";
   color: #ffd42e;
 }
 
-.main-content .zen {
+.main-content-container {
   width: 680px;
   padding: 5px 0px;
   display: inline-block;
   text-align: center;
 }
 
-.main-content .zen p {
+.main-content-container p {
   padding: 10px;
   font-size: 15px;
 }
 
-.main-content .zen ul li {
+.main-content-container ul li {
   color: #ffd42e;
   font-style: italic;
   list-style: none;
@@ -178,21 +176,18 @@ aside ul li::before {
   padding: 4px;
 }
 
-.main-content .zen h3 {
+.main-content-container h3 {
   margin-top: 5px;
   font-weight: normal;
 }
 
 /* more-content */
 
-.more-content-wrapper {
+.more-content {
   display: block;
   margin: auto;
-  width: fit-content;
+  width: 100%;
   padding-top: 10px;
-}
-
-.more-content {
   font-size: 14px;
   text-align: center;
   background-color: white;
@@ -206,18 +201,17 @@ aside ul li::before {
 
 .more-content .getting-started {
   display: inline-block;
-  width: 420px;
+  width: 300px;
   height: auto;
   vertical-align: top;
   margin-right: 10px;
   border-top: #73a7d5 solid 7px;
-  padding: 0px 25px;
 }
 
 .more-content .applications {
   display: inline-block;
   height: auto;
-  width: 420px;
+  width: 300px;
   vertical-align: top;
   border-top: #73a7d5 solid 7px;
   padding: 0px 25px;
@@ -228,9 +222,8 @@ aside ul li::before {
 }
 
 .more-content ul li {
-  width: 250px;
-  margin-left: 30px;
-  padding: 0px 50px;
+  width: 100%;
+  padding: 0px 10px;
   color: #83b1d9;
   list-style: square;
 }
