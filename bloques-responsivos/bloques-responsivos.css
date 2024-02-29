@@ -3,10 +3,9 @@
   padding: 0px;
 }
 .wrapper {
-  width: 1000px;
+  width: 96.5vw;
   height: 100vh;
   background-color: silver;
-  margin: 0px auto;
   padding: 20px;
 }
 
@@ -46,17 +45,22 @@
   margin: 10px 0px 10px 15px;
 }
 
+/* Small */
 @media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90vw;
+  }
+
   .navigation {
     display: none;
   }
   .header {
-    width: 44%;
+    width: 99%;
     height: 15%;
   }
 
   .main_content {
-    width: 44%;
+    width: 99%;
     height: 68%;
     margin: 20px 0;
     display: flex;
@@ -65,10 +69,38 @@
 
   .subcontents {
     width: 93%;
-    height: 40%;
   }
 
   .advertisement {
     width: 93%;
   }
+}
+
+/*Medium*/
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 92vw;
+  }
+  .header {
+    width: 99%;
+    height: 15%;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .main_content {
+    width: 99%;
+    height: 80%;
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .subcontents {
+    height: 30%;
+  }
+}
+
+.advertisement {
+  width: 92%;
+  height: 20px;
 }
