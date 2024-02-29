@@ -16,10 +16,9 @@
 }
 .navigation {
   min-height: 300px;
-  width: 200px;
+  width: 20%;
   background-color: blue;
   margin-top: 20px;
-  padding: 0px 5px;
   display: inline-block;
 }
 .main_content {
