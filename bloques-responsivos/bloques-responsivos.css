@@ -40,8 +40,35 @@
   margin: 15px 0px 15px 15px;
 }
 .advertisement {
-  min-height: 120px;
+  min-height: 30%;
   width: 95%;
   background-color: purple;
   margin: 10px 0px 10px 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+  .header {
+    width: 44%;
+    height: 15%;
+  }
+
+  .main_content {
+    width: 44%;
+    height: 68%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subcontents {
+    width: 93%;
+    height: 40%;
+  }
+
+  .advertisement {
+    width: 93%;
+  }
 }
