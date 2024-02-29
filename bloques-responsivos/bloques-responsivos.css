@@ -3,43 +3,45 @@
   padding: 0px;
 }
 .wrapper {
-  width: 100%;
+  width: 1000px;
   height: 100vh;
   background-color: silver;
   margin: 0px auto;
   padding: 20px;
 }
+
 .header {
   width: 100%;
   height: 20%;
   background-color: green;
 }
+
 .navigation {
   min-height: 300px;
-  width: 20%;
+  width: 25%;
   background-color: blue;
   margin-top: 20px;
   display: inline-block;
 }
 .main_content {
-  min-height: 400px;
-  width: 720px;
+  height: 60vh;
+  width: 72%;
   background-color: red;
   display: inline-block;
   vertical-align: top;
-  margin: 20px 0px 5px 15px;
+  margin: 20px 0px 5px 20px;
   padding: 0px 0px 50px 0px;
 }
 .subcontents {
-  min-height: 200px;
-  width: 210px;
+  height: 60%;
+  width: 30%;
   background-color: yellow;
   display: inline-block;
   margin: 15px 0px 15px 15px;
 }
 .advertisement {
   min-height: 120px;
-  width: 660px;
+  width: 95%;
   background-color: purple;
   margin: 10px 0px 10px 15px;
 }
