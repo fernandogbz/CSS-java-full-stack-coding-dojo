@@ -1,106 +1,82 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  font-size: 10px;
 }
+
 .wrapper {
-  width: 96.5vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 1fr;
+  gap: 2rem;
+  width: 100%;
   height: 100vh;
   background-color: silver;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .header {
   width: 100%;
-  height: 20%;
+  height: auto;
   background-color: green;
 }
 
 .navigation {
-  min-height: 300px;
-  width: 25%;
-  background-color: blue;
-  margin-top: 20px;
-  display: inline-block;
+  display: none;
 }
-.main_content {
-  height: 60vh;
-  width: 72%;
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 78% 1fr;
+  gap: 2rem;
+  height: 100%;
   background-color: red;
-  display: inline-block;
-  vertical-align: top;
-  margin: 20px 0px 5px 20px;
-  padding: 0px 0px 50px 0px;
+  padding: 2rem;
 }
+
+.subcontent-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  height: auto;
+}
+
 .subcontents {
-  height: 60%;
-  width: 30%;
+  width: 100%;
+  height: auto;
   background-color: yellow;
-  display: inline-block;
-  margin: 15px 0px 15px 15px;
 }
+
 .advertisement {
-  min-height: 30%;
-  width: 95%;
+  width: 100%;
+  height: auto;
   background-color: purple;
-  margin: 10px 0px 10px 15px;
 }
 
-/* Small */
-@media screen and (max-width: 480px) {
-  .wrapper {
-    width: 90vw;
+/* Medium */
+@media screen and (min-width: 480px) {
+  .subcontent-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1024px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 2rem;
   }
 
   .navigation {
-    display: none;
-  }
-  .header {
-    width: 99%;
-    height: 15%;
+    height: 70%;
+    background-color: blue;
+    display: block;
   }
 
-  .main_content {
-    width: 99%;
-    height: 68%;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
+  .subcontent-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .subcontents {
-    width: 93%;
-  }
-
-  .advertisement {
-    width: 93%;
-  }
-}
-
-/*Medium*/
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    width: 92vw;
-  }
-  .header {
-    width: 99%;
-    height: 15%;
-  }
-  .navigation {
-    display: none;
-  }
-
-  .main_content {
-    width: 99%;
-    height: 80%;
-    margin: 20px 0;
-    padding: 20px 0;
-  }
-  .subcontents {
-    height: 30%;
-  }
-}
-
-.advertisement {
-  width: 92%;
-  height: 20px;
 }
